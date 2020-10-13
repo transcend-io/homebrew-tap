@@ -7,6 +7,6 @@ class TerragruntAtlantisConfig < Formula
   sha256 "967761ddc1516baf0d308708d25c57b7e7743e5e1c160c5abd92abe03427bda3"
 
   def install
-    bin.install "terragrunt-atlantis-config"
+    bin.install "terragrunt-atlantis-config_0.9.7_darwin_amd64" => "terragrunt-atlantis-config"
   end
 end
